@@ -6,6 +6,7 @@
     html{
         scroll-behavior: smooth;
         overflow-x: hidden;
+        
     }
     
     *{
@@ -40,6 +41,9 @@ nav{
     
    
 }
+ .stop-scrolling {
+ overflow-y:hidden;
+ }
 nav i{
    display: none;
 }
